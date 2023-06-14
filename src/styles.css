@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    width: 1000px;
+  }
+  
+  .side {
+    flex: 1;
+    padding: 10px;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  
+  .side-content-center {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-style:bold ;
+    font-weight: 10px;
+  }
+
+ 
