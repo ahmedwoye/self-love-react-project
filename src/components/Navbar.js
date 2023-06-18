@@ -28,16 +28,22 @@ Self-love is a luxury
 
  <ul className={click ? 'nav-menu active' : 'nav-menu'}>
              
+
+ <li className='nav-item'>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
  
 
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to={"/gallery"} className='nav-links' onClick={closeMobileMenu}>
                 Gallery
               </Link>
             </li>
 
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                 Contact
               </Link>
             </li>
@@ -49,11 +55,11 @@ Self-love is a luxury
             </li>
 
           
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 <i  class="fa fa-facebook-official" aria-hidden="true"></i>
               </Link>
-            </li>
+            </li> */}
              
 
           </ul>

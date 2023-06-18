@@ -1,16 +1,23 @@
 import React from 'react';
 import '../../App.css';
-import Cards from '../Cards';
+ import Footer from '../Footer';
 import HeroSection from '../HeroSection';
-import Footer from '../Footer';
+import ExtraCard from '../ExtraCard';
+
+
 
 function Home() {
   return (
     <>
-      <HeroSection />
+<ExtraCard />
+
+<HeroSection />
+ 
+    
 
      
-      <Cards />
+      
+      
       <Footer />
     </>
   );

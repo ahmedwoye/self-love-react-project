@@ -3,18 +3,23 @@ import React from 'react';
 import './App.css';
 import Home from './components/pages/Home';
 import Navbar from './components/Navbar';
-import image1 from "./images/image1.jpg";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Contact from './components/pages/Contact';
+import Gallery from './components/pages/Gallery';
+// import image1 from "./images/image1.jpg";
+ import { BrowserRouter as Router,  Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <>
       <Router>
         <Navbar />
-        <Routes>
-        <Route path='/' exact component={Home} />
-        </Routes>
+        <Switch>
+         <Route path='/'  exact component={Home} /> 
+         <Route path='/gallery' component={Gallery} />
+         <Route path='/contact' component={Contact} />
 
-        <div className="App">
+        </Switch>
+
+        {/* <div className="App">
       <div class="container">
         <div class="side">
         <img alt="facebook" width="100%" src={image1} />
@@ -34,7 +39,7 @@ Manchester,  UK | & | Upsala, Sweden
 
   
 </div>
-      </div>
+      </div> */}
 
      
     
