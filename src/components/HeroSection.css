@@ -70,11 +70,11 @@
   }
 
   .hero-container > p {
-    font-size: 30px;
+    font-size: 7px;
 
     text-align: right;
   display: flex;
-  width: 200px;
+ 
 
 
   flex: 1;
@@ -92,18 +92,17 @@
   .btn {
     width: 100%;
   }
+
+
+  .side {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .side-content-center {
+    display: flex;
+    align-items: left;
+  }
 }
 
-.p{
-
-  text-align: right;
-  display: flex;
-  width: 200px;
-
-
-  flex: 1;
-  padding: 10px;
-
-  display: flex;
-  align-items: center;
-}
+ 

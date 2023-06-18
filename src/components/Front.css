@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    width: 90%;
+    max-width: 1120px;
+  }
+  
+  .image {
+    width: 400px; /* Adjust the image width as needed */
+  }
+  
+  .text-container {
+    margin-left: 20px; /* Add any desired spacing between the image and text */
+    width: 90%;
+    max-width: 1000px;
+    width: fit-content;
+  }
+  
+  .text-container h2 {
+    margin-top: 0; /* Reset margin for the heading */
+    width: 90%;
+    max-width: 1120px;
+    width: fit-content;
+  }
+   
+  
+  
+  
+  
+  
+  
