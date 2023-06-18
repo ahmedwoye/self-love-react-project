@@ -49,7 +49,8 @@ Self-love is a luxury
             </li>
 
             <li className='nav-item'>
-              <Link to='https://instagram.com/clemen_bayo?igshid=NTc4MTIwNjQ2YQ==' className='nav-links' onClick={closeMobileMenu}>
+              {/* <Link to='/https://instagram.com/clemen_bayo?igshid=NTc4MTIwNjQ2YQ==' className='nav-links' onClick={closeMobileMenu}> */}
+              <Link to={{ pathname: "https://instagram.com/clemen_bayo?igshid=NTc4MTIwNjQ2YQ==" }} target="_blank" className='nav-links' onClick={closeMobileMenu}>
                 <i  class="fa fa-instagram" aria-hidden="true"></i>
               </Link>
             </li>

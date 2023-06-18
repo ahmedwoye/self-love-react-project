@@ -19,10 +19,13 @@ function Footer() {
              
             <Link
               class='social-icon-link instagram'
-              to='https://instagram.com/clemen_bayo?igshid=NTc4MTIwNjQ2YQ=='
-              target='_blank'
+              to={{ pathname: "https://instagram.com/clemen_bayo?igshid=NTc4MTIwNjQ2YQ==" }} target="_blank"
               aria-label='Instagram'
             >
+
+
+
+
               <i class="fa fa-instagram" aria-hidden="true"></i>
       
             </Link>

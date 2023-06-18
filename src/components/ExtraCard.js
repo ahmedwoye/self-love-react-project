@@ -11,7 +11,7 @@ function ExtraCard() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='/images/image2.jpg'
+              src='/images/image1.jpg'
               text='I create affordable, magical images for your company with me as a model.
               Instagram  | Digital creator | Brand ambassador & influencer | Fashion and Style | Modelling
               Manchester,  UK | & | Uppsala, Sweden

@@ -5,9 +5,9 @@ const ImageWithText = () => {
     return (
         <>
       <div className="container">
-        <img src="/images/image1.jpg" alt="Root" className="image" />
+        <img src="/images/image2.jpg" alt="Root" className="image" />
         <div className="text-container">
-         <h3> <a href="/about">About me </a></h3>
+         <h3> <a href="/about">About</a></h3>
           {/* <h4>Clement Shobayou
 Age: 32 years
 Ethnicity: Black African
